@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/style.css" />
+		<title>Mini Project 3: Forms</title>
+	</head>
+	<body>
+		<header id="topbar" class="topbar">
+			<nav id="nav">
+				<span><a href="../">Home</a></span>
+				<span><a href="../html/">HTML</a></span>
+				<span><a href="../css/">CSS</a></span>
+				<span><a href="../js/">JS</a></span>
+				<span><a href="../jquery/">JQuery</a></span>
+				<span><a href="../es6/">ES6</a></span>
+				<span><a href="../react/">React</a></span>
+				<span>About</span>
+			</nav>
+		</header>
+		<main class="main" id="start">
+			<section class="wrapper grid cols col-1">
+				<form
+					action="thankyou.html"
+					id="register"
+					class="register"
+					method="GET"
+				>
+					<h1 class="capitalize center">Register</h1>
+					<div class="social-wrapper">
+						<img
+							src="/Edyoda/react-js-course/public/assets/icons/20210618182605!Google__G__Logo.svg"
+							alt="Google logo"
+						/>
+						<img
+							src="/Edyoda/react-js-course/public/assets/icons/107175_circle_facebook_icon.svg"
+							alt="Facebook logo"
+						/>
+						<img
+							src="/Edyoda/react-js-course/public/assets/icons/107161_circle_github_icon.svg"
+							alt="Github logo"
+						/>
+						<img
+							src="/Edyoda/react-js-course/public/assets/icons/107178_circle_linkedin_icon.svg"
+							alt="LinkedIn logo"
+						/>
+					</div>
+					<div class="input-group">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							name="username"
+							placeholder="Username"
+							required
+							aria-required="true"
+							id="username"
+						/>
+					</div>
+					<div class="input-group">
+						<label for="email">Email </label>
+						<input
+							type="text"
+							name="Email"
+							id="email"
+							placeholder="Email"
+							autocomplete="on"
+							required
+							aria-required="true"
+						/>
+					</div>
+					<div class="input-group">
+						<label for="password">Password </label>
+						<input
+							type="password"
+							name="password"
+							id="password"
+							placeholder="Password"
+							autocomplete="off"
+							required
+							aria-required="true"
+						/>
+					</div>
+					<div class="input-group">
+						<label for="password2">Confirm Password</label>
+						<input
+							type="password"
+							name="password"
+							id="password2"
+							placeholder="Confirm Password"
+							autocomplete="off"
+							required
+							aria-required="true"
+						/>
+					</div>
+					<button type="submit">Register</button>
+				</form>
+			</section>
+		</main>
+		<footer id="footer" class="footer">
+			<div class="footer-wrapper">
+				<div class="grid cols col-2">
+					<span>Copyright &copy; 2022</span>
+					<span>
+						<a href="#top">Back to Top</a>
+					</span>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

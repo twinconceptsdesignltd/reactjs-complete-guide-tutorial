@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/style.css" />
+		<title>Mini Project 2: Design an Invoice using HTML Tables</title>
+	</head>
+	<body>
+		<header id="topbar" class="topbar">
+			<nav id="nav">
+				<span><a href="../">Home</a></span>
+				<span><a href="../html/" class="active">HTML</a></span>
+				<span><a href="../css/">CSS</a></span>
+				<span><a href="../js/">JS</a></span>
+				<span><a href="../jquery/">JQuery</a></span>
+				<span><a href="../es6/">ES6</a></span>
+				<span><a href="../react/">React</a></span>
+				<span>About</span>
+			</nav>
+		</header>
+		<div class="tables">
+			<main>
+				<table>
+					<tr class="blue bold">
+						<th colspan="3">Invoice #12345abc</th>
+						<th>18 Jul 2019</th>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<strong>Pay To: </strong>
+							<p>
+								The Tech Park <br />123 Willow Street<br />
+								Boulevard, LA - 567892
+							</p>
+						</td>
+						<td colspan="2">
+							<strong>Customer: </strong>
+							<p>
+								John Lark <br />Duumy Apartments<br />
+								276 Main Street<br />
+								Boulevard, LA - 567892
+							</p>
+						</td>
+					</tr>
+					<tr class="blue bold">
+						<td>Name/Description</td>
+						<td>Qty</td>
+						<td>MRP</td>
+						<td>Amount</td>
+					</tr>
+					<tr>
+						<td>Briyani</td>
+						<td>3</td>
+						<td>400</td>
+						<td>1200</td>
+					</tr>
+					<tr>
+						<td>Chocolate Shake</td>
+						<td>3</td>
+						<td>200</td>
+						<td>600</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="blue bold">Subtotal</td>
+						<td>1800</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="blue bold">Tax</td>
+						<td>10%</td>
+						<td>180</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="blue bold">Grand Total</td>
+						<td>Rs 1620</td>
+					</tr>
+				</table>
+			</main>
+		</div>
+		<footer id="footer" class="footer">
+			<div class="center">Copyright &copy; 2022</div>
+		</footer>
+	</body>
+</html>
