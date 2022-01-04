@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Anasoophie Script';
+    src: local('Anasoophie Script'), local('AnasoophieScript'),
+        url('AnasoophieScript.woff') format('woff'),
+        url('AnasoophieScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Anasoophie Sans Serif';
+    src: local('Anasoophie Sans Serif'), local('AnasoophieSansSerif'),
+        url('AnasoophieSansSerif.woff') format('woff'),
+        url('AnasoophieSansSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amaryllis';
+    src: local('Amaryllis'),
+        url('Amaryllis.woff') format('woff'),
+        url('Amaryllis.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outdoors Signature';
+    src: local('Outdoors Signature Clean'), local('OutdoorsSignature-Clean'),
+        url('OutdoorsSignature-Clean.woff') format('woff'),
+        url('OutdoorsSignature-Clean.ttf') format('truetype'),
+        url('OutdoorsSignature-Clean.svg#OutdoorsSignature-Clean') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outdoors Signature';
+    src: local('Outdoors Signature Rust'), local('OutdoorsSignature-Rust'),
+        url('OutdoorsSignature-Rust.woff') format('woff'),
+        url('OutdoorsSignature-Rust.ttf') format('truetype'),
+        url('OutdoorsSignature-Rust.svg#OutdoorsSignature-Rust') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outdoors Signature';
+    src: local('Outdoors Signature Stamp'), local('OutdoorsSignature-Stamp'),
+        url('OutdoorsSignature-Stamp.woff') format('woff'),
+        url('OutdoorsSignature-Stamp.ttf') format('truetype'),
+        url('OutdoorsSignature-Stamp.svg#OutdoorsSignature-Stamp') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outdoors Signature';
+    src: local('Outdoors Signature Rough'), local('OutdoorsSignature-Rough'),
+        url('OutdoorsSignature-Rough.woff') format('woff'),
+        url('OutdoorsSignature-Rough.ttf') format('truetype'),
+        url('OutdoorsSignature-Rough.svg#OutdoorsSignature-Rough') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outdoors Signature';
+    src: local('Outdoors Signature Halftone'), local('OutdoorsSignature-Halftone'),
+        url('OutdoorsSignature-Halftone.woff') format('woff'),
+        url('OutdoorsSignature-Halftone.ttf') format('truetype'),
+        url('OutdoorsSignature-Halftone.svg#OutdoorsSignature-Halftone') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

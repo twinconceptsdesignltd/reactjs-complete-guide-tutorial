@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Marvelous-Sans-Demo';
+    src:url('Marvelous-Sans-Demo.ttf.woff') format('woff'),
+        url('Marvelous-Sans-Demo.ttf.svg#Marvelous-Sans-Demo') format('svg'),
+        url('Marvelous-Sans-Demo.ttf.eot'),
+        url('Marvelous-Sans-Demo.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
