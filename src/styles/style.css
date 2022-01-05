@@ -36,9 +36,25 @@ body {
 
 a {
 	text-decoration-color: hsl(var(--color-accent));
-	text-decoration-style: wavy;
+	text-decoration-color: transparent;
 	color: hsl(var(--color-text-base));
 }
+
+a[class="active"] {
+	text-decoration-color: hsl(var(--color-accent-alt));
+	text-decoration-style: wavy;
+	color: hsl(var(--color-accent));
+	font-weight: 900;
+}
+
+a:hover,
+a:focus {
+	text-decoration-color: hsl(var(--color-accent-alt));
+	text-decoration-style: wavy;
+	color: hsl(var(--color-accent));
+	outline: none;
+}
+
 
 li {
 	list-style: none;

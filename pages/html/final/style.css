@@ -332,12 +332,20 @@ h2.logo {
 }
 
 /* Forms */
+
+#contact-me {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	place-items: center;
+}
+
 .form {
     display: flex;
     flex-direction: column;
     place-items: center;
     justify-content: space-between;
-    width: max(350px, 75vw);
+    width: max(350px, 55vw);
     padding-block: var(--fs--1);
     background-color: hsl(var(--color-white));
     border: 1px solid hsl(var(--color-bg));
@@ -369,7 +377,7 @@ h2.logo {
 	visibility: hidden;
 }
 
-input[type="text"], input[type="textarea"] {
+input[type="text"], textarea {
     padding-block: 1em;
     padding-inline: 1em;
     width: 70%;
@@ -378,13 +386,17 @@ input[type="text"], input[type="textarea"] {
     border-bottom: 1px solid hsl(var(--color-silver));
 }
 
-input[type="text"]::placeholder, input[type="textarea"]::placeholder,
-input[type="text"]::placeholder, input[type="textarea"]::placeholder {
-		color: 1px solid hsl(var(--color-accent));
+input[type="text"]::placeholder, textarea::placeholder,
+input[type="text"]::placeholder, textarea::placeholder {
+		color: hsl(var(--color-accent));
 }
-input[type="text"]:focus ::placeholder, input[type="textarea"]:focus ::placeholder,
-input[type="text"]:focus-within ::placeholder, input[type="textarea"]:focus-within ::placeholder {
-		color: 1px solid hsl(var(--color-base));
+input[type="text"]:focus::placeholder, textarea:focus::placeholder,
+input[type="text"]:focus-within::placeholder, textarea:focus-within::placeholder {
+		color: hsl(var(--color-base)/.8);
+}
+
+textarea {
+	resize: vertical
 }
 
 .social-wrapper {
@@ -406,11 +418,11 @@ input[type="text"]:focus-within ::placeholder, input[type="textarea"]:focus-with
 	text-decoration: none;
 }
 
-button {
+.btn {
     margin: var(--fs--2) auto;
-    padding-block: max(var(--fs--1), var(--fs-1));
-    padding-inline: max(var(--fs--2), var(--fs-1));
-    width: clamp(400px, 100%, 600px);
+    padding-block: max(var(--fs--1), var(--fs--1));
+    padding-inline: max(var(--fs--2), var(--fs--1));
+    width: clamp(250px, 100%, 800px);
     background-color: hsl(var(
 	--color-base));
     color: hsl(var(
@@ -419,6 +431,13 @@ button {
 	--font-base);
     border: none;
     cursor: pointer;
+}
+
+.btn.submit:hover {
+    background-color: hsl(var(
+	--color-accent));
+	color: hsl(var(
+	--color-base));
 }
 
 /* Utility classes */
